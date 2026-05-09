@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;/*without height centering-flex wont work*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+
+h1 img{
+    width: 70px;
+}
+
+.inputbox {
+    width: 100%;
+    background-color: #eef1f5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    flex: 1;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #2563eb;
+}
+
+button{
+    width: 60px;
+    border: none;
+    padding: 10px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonsContainer button{
+    width: 80px;
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    width: 100%;
+    background-color: beige;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+li::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+li.checked::before{
+    content: "✔";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    background-color: #2563eb;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.changes span{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+button.active{
+    background-color: #40b648;
+}
+
