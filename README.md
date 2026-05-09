@@ -10,6 +10,10 @@ A simple Todo List application built using HTML, CSS and JavaScript.
 - Local storage support
 - Responsive user interface
 
+  ## Screenshot
+
+![Todo App Screenshot](screenshot.png)
+
 ## Technologies Used
 - HTML
 - CSS
