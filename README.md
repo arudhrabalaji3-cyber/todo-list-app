@@ -12,7 +12,7 @@ A simple Todo List application built using HTML, CSS and JavaScript.
 
   ## Screenshot
 
-![Todo App Screenshot](screenshot.png)
+![Todo App Screenshot](screenshot.png.png)
 
 ## Technologies Used
 - HTML
